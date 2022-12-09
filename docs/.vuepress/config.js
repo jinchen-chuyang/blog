@@ -7,6 +7,7 @@ module.exports = {
 	theme: 'reco',
 	title: 'trouble maker',
 	description: 'the way to make game.',
+	base: '/blog/',
 	themeConfig: {
         nav: [
             { text: '首页', link: '/' },
