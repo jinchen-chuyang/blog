@@ -7,7 +7,10 @@ logs
  
 # 忽略/dist目录，相对.gitignore文件所在目录
 /dist
- 
+
+# 忽略/docs/.vuepress/dist目录，相对.gitignore文件所在目录
+/docs/.vuepress/dist
+
 # 忽略.env文件
 .env
  
