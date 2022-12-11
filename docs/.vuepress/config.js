@@ -22,6 +22,7 @@ module.exports = {
 					{ title: "centos7.6搭建nginx文件服务器", path: "/chapter_000/01_centos7.6搭建nginx文件服务器" },
 					{ title: "centos7.6安装mongodb", path: "/chapter_000/02_centos7.6安装mongodb" },
 					{ title: "cocos打包设定远程加载资源", path: "/chapter_000/03_cocos打包设定远程加载资源" },
+					{ title: "centos7.6使用nginx隐藏服务端口", path: "/chapter_000/04_centos7.6使用nginx隐藏服务端口" },
                 ]
             },
             {
