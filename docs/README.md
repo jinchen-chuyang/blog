@@ -1,8 +1,7 @@
 ---
-title: 跑不起来
-author: cy
+title: 跑起来，就有风
+author: trb
 date: '2022-12-12'
 ---
 
-下载的oops-moba跑不起来，猜了一下原因，是node的版本不够高。于是想把node升至最新。
-
+![](https://jinchen-chuyang.github.io/blog/common/draw.png)

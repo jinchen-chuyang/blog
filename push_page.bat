@@ -5,8 +5,11 @@
 cd %~dp0
 %~d0
 
+:: 防止报错 code: 'ERR_OSSL_EVP_UNSUPPORTED'
+set NODE_OPTIONS=--openssl-legacy-provider
+
 :: 重新构建
-del /f docs/.vuepress/dist
+del /s /q /f docs\\.vuepress\\dist
 call npm run docs:build
 
 :: 显示命令

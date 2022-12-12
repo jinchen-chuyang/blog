@@ -25,12 +25,13 @@ module.exports = {
 					{ title: "centos7.6使用nginx隐藏服务端口", path: "/chapter_000/04_centos7.6使用nginx隐藏服务端口" },
                 ]
             },
-            {
-                title: '暖男大哥',
-                path: '/chapter_999/',
-                collapsable: false, // 是否折叠
+			{
+                title: 'cocos creator采坑之路',
+                path: '/chapter_001/',
+                collapsable: true, // 是否折叠
                 children: [
-                    { title: "弥天绿帽", path: "/chapter_999/over" }
+                    { title: "cocos creator 加载扩展库", path: "/chapter_001/00_ccc_加载扩展库" },
+					{ title: "cocos creator 安装依赖库", path: "/chapter_001/01_ccc_安装依赖库" },
                 ]
             },
         ]
