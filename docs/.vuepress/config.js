@@ -33,6 +33,8 @@ module.exports = {
                     { title: "cocos creator 加载扩展库", path: "/001_ccc/00_ccc_加载扩展库" },
 					{ title: "cocos creator 安装依赖库", path: "/001_ccc/01_ccc_安装依赖库" },
 					{ title: "cocos creator 空工程目录", path: "/001_ccc/02_ccc_空工程目录" },
+					{ title: "cocos creator 引入微信api", path: "/001_ccc/03_ccc_引入微信api" },
+					{ title: "cocos creator 获取微信openid", path: "/001_ccc/04_ccc_获取微信openid" },
                 ]
             },
         ]

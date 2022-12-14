@@ -27,4 +27,4 @@ call git push -f git@github.com:jinchen-chuyang/blog.git master:pages
 timeout /t 10
 
 :: 打开网页
-start chrome "https://jinchen-chuyang.github.io/blog/chapter_000/"
+start chrome "https://jinchen-chuyang.github.io/blog"
