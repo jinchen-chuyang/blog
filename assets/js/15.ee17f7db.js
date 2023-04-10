@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{408:function(t,n,s){"use strict";s.r(n);var o=s(2),e=Object(o.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("下载的oops，在centos7.6上跑不起来，猜了一下原因，是node的版本不够高。。。")])])}),[],!1,null,null,null);n.default=e.exports}}]);
