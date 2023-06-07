@@ -14,7 +14,13 @@ call npm run docs:build
 
 :: 显示命令
 @echo on
-cd docs/.vuepress/dist
+
+cd docs
+call git add -A
+call git commit -m "deploy"
+call git push -f git@github.com:jinchen-chuyang/blog.git master
+
+cd .vuepress/dist
 
 :: 提交
 call git init
