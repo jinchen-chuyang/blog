@@ -15,19 +15,17 @@ call npm run docs:build
 :: 显示命令
 @echo on
 
-cd docs
-call git add -A
-call git commit -m "deploy"
-call git push -f git@github.com:jinchen-chuyang/blog.git master
+:: 提交源文件
+call git add .
+call git commit -m "source"
+call git push
 
-cd .vuepress/dist
-
-:: 提交
+:: 提交发布文件
+cd docs/.vuepress/dist
 call git init
 call git add -A
 call git commit -m "deploy"
 call git push -f git@github.com:jinchen-chuyang/blog.git master:pages
-
 
 :: 延迟15秒退出
 timeout /t 10
