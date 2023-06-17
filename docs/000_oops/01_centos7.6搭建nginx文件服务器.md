@@ -8,6 +8,8 @@ centos7.6中部署带https服务器的nginx，[参考](https://cloud.tencent.com
 
 ```shell
 [root@VM-12-6-centos nginx]# diff nginx_wx.conf  nginx.conf.default 
+3d2
+< user  root; #这里需要根据启动nginx的用户名做对应调整
 117,156d116
 < 
 <     #wechat_game file server
@@ -29,7 +31,7 @@ centos7.6中部署带https服务器的nginx，[参考](https://cloud.tencent.com
 < 
 <         location /game_res {#这个路径按喜好修改
 <             # 真实路径 
-<             alias /path/to/files;#这里需要对应修改
+<             alias /path/to/files/;#这里需要对应修改(注意最后的一个/)
 <             # 显示目录
 <             autoindex off;#这里需要酌情修改
 <             # 显示大小
